@@ -1,0 +1,10 @@
+/home/waynamigo/IdeaProjects/classdesign/src/main/java/com/example/classdesign/results/Result.java
+/home/waynamigo/IdeaProjects/classdesign/src/main/java/com/example/classdesign/models/UserInfo.java
+/home/waynamigo/IdeaProjects/classdesign/src/main/java/com/example/classdesign/ClassdesignApplication.java
+/home/waynamigo/IdeaProjects/classdesign/src/main/java/com/example/classdesign/services/Userservice.java
+/home/waynamigo/IdeaProjects/classdesign/src/main/java/com/example/classdesign/utils/MD5.java
+/home/waynamigo/IdeaProjects/classdesign/src/main/java/com/example/classdesign/swagger/Swagger2.java
+/home/waynamigo/IdeaProjects/classdesign/src/main/java/com/example/classdesign/results/SuccessResult.java
+/home/waynamigo/IdeaProjects/classdesign/src/main/java/com/example/classdesign/repository/UserRepository.java
+/home/waynamigo/IdeaProjects/classdesign/src/main/java/com/example/classdesign/controllers/UserController.java
+/home/waynamigo/IdeaProjects/classdesign/src/main/java/com/example/classdesign/results/ErrorResult.java

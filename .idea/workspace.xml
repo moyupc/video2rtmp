@@ -1,0 +1,1030 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cb4fb5d1-2619-452d-8217-c793f7bcd639" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/classdesign/controllers/CameraController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/classdesign/models/Camera.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/classdesign/models/Evidence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/classdesign/repository/EvidenceRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/classdesign/services/CameraService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/classdesign/utils/addEvidence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/classdesign/utils/record2rtmpserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/classdesign/utils/transformer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/classdesign/JavacvCameraTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/classdesign/record2rtmpserverTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/classdesign/transformertest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/classdesign/ClassdesignApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/classdesign/ClassdesignApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/classdesign/utils/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/classdesign/controllers/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/classdesign/utils/models/UserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/classdesign/models/UserInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/classdesign/utils/repositories/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/classdesign/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/classdesign/utils/results/ErrorResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/classdesign/results/ErrorResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/classdesign/utils/results/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/classdesign/results/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/classdesign/utils/results/SuccessResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/classdesign/results/SuccessResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/classdesign/utils/services/Userservice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/classdesign/services/Userservice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/classdesign/utils/swagger/Swagger2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/classdesign/swagger/Swagger2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="classdesign@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="classdesign@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="classdesign@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="classdesign: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="CameraService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/classdesign/services/CameraService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="946">
+              <caret line="53" column="60" selection-start-line="53" selection-start-column="60" selection-end-line="53" selection-end-column="60" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Camera.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/classdesign/models/Camera.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JavacvCameraTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/example/classdesign/JavacvCameraTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="19" column="28" lean-forward="true" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="record2rtmpserverTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/example/classdesign/record2rtmpserverTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="12" selection-start-line="12" selection-end-line="18" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="transformertest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/example/classdesign/transformertest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CameraController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/classdesign/controllers/CameraController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="521">
+              <caret line="24" column="47" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Swagger2.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/classdesign/swagger/Swagger2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="682">
+              <caret line="39" column="24" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EvidenceRepository.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/classdesign/repository/EvidenceRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/classdesign/controllers/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>User</find>
+      <find>fox</find>
+      <find>maven</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>User</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/classdesign/utils/ErrorResult.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/classdesign/utils/results/ErrorResult.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/classdesign/utils/results/SuccessResult.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/classdesign/utils/Users.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/classdesign/utils/JwtUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/classdesign/utils/swagger/SwaggerUI.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/classdesign/utils/swagger/Swagger2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/classdesign/utils/users/Users.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/classdesign/utils/models/Users.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/classdesign/utils/models/UserInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/classdesign/utils/repositories/UserRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/classdesign/utils/services/Userservice.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/classdesign/ClassdesignApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/classdesign/utils/controllers/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/classdesign/utils/News.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/classdesign/utils/models/News.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/classdesign/services/NewsService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/classdesign/controllers/PublishController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/classdesign/services/Userservice.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/classdesign/swagger/Swagger2.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/9bcd8907-2afb-47c4-85c3-e1344d2e4734/console_1.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/classdesign/models/News.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/classdesign/interfaces/NewsRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/classdesign/interfaces/INewsImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/classdesign/repository/UserRepository.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/classdesign/models/UserInfo.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/classdesign/utils/addEvidence.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/example/classdesign/JavacvCameraTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/example/classdesign/transformertest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/example/classdesign/record2rtmpserverTest.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/9bcd8907-2afb-47c4-85c3-e1344d2e4734/console.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/classdesign/models/Camera.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/classdesign/models/Evidence.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/classdesign/repository/EvidenceRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/classdesign/controllers/CameraController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/classdesign/services/CameraService.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="distance" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="distance" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="960" />
+    <option name="y" value="27" />
+    <option name="width" value="960" />
+    <option name="height" value="1053" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="classdesign" type="b2602c69:ProjectViewProjectNode" />
+              <item name="classdesign" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="classdesign" type="b2602c69:ProjectViewProjectNode" />
+              <item name="classdesign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="classdesign" type="b2602c69:ProjectViewProjectNode" />
+              <item name="classdesign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="classdesign" type="b2602c69:ProjectViewProjectNode" />
+              <item name="classdesign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="classdesign" type="b2602c69:ProjectViewProjectNode" />
+              <item name="classdesign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="classdesign" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="classdesign" type="b2602c69:ProjectViewProjectNode" />
+              <item name="classdesign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="classdesign" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="classdesign" type="b2602c69:ProjectViewProjectNode" />
+              <item name="classdesign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="classdesign" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="classdesign" type="b2602c69:ProjectViewProjectNode" />
+              <item name="classdesign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="classdesign" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="classdesign" type="b2602c69:ProjectViewProjectNode" />
+              <item name="classdesign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="classdesign" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="classdesign" type="b2602c69:ProjectViewProjectNode" />
+              <item name="classdesign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="classdesign" type="462c0819:PsiDirectoryNode" />
+              <item name="swagger" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="classdesign" type="b2602c69:ProjectViewProjectNode" />
+              <item name="classdesign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="classdesign" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="classdesign" type="b2602c69:ProjectViewProjectNode" />
+              <item name="classdesign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="classdesign" type="b2602c69:ProjectViewProjectNode" />
+              <item name="classdesign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="classdesign" type="b2602c69:ProjectViewProjectNode" />
+              <item name="classdesign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="classdesign" type="b2602c69:ProjectViewProjectNode" />
+              <item name="classdesign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="classdesign" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="classdesign" type="b2602c69:ProjectViewProjectNode" />
+              <item name="classdesign" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="classdesign" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/waynamigo/IdeaProjects/classdesign/pom.xml" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../rmi" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.classdesign" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/com/example/classdesign" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/example/classdesign/utils" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ClassdesignApplication">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="record2rtmpserverTest.recordCameratest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="classdesign" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.classdesign.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.example.classdesign" />
+      <option name="MAIN_CLASS_NAME" value="com.example.classdesign.record2rtmpserverTest" />
+      <option name="METHOD_NAME" value="recordCameratest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="transformertest.testtrans" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="classdesign" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.classdesign.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.example.classdesign" />
+      <option name="MAIN_CLASS_NAME" value="com.example.classdesign.transformertest" />
+      <option name="METHOD_NAME" value="testtrans" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="ClassdesignApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="classdesign" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.classdesign.ClassdesignApplication" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.ClassdesignApplication" />
+      <item itemvalue="JUnit.transformertest.testtrans" />
+      <item itemvalue="JUnit.record2rtmpserverTest.recordCameratest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.record2rtmpserverTest.recordCameratest" />
+        <item itemvalue="JUnit.transformertest.testtrans" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cb4fb5d1-2619-452d-8217-c793f7bcd639" name="Default" comment="" />
+      <created>1539250248087</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1539250248087</updated>
+      <workItem from="1539250251100" duration="1047000" />
+      <workItem from="1539318475838" duration="5517000" />
+      <workItem from="1539324208866" duration="766000" />
+      <workItem from="1539328482311" duration="947000" />
+      <workItem from="1539331858140" duration="25000" />
+      <workItem from="1539334043025" duration="77000" />
+      <workItem from="1539334647547" duration="57000" />
+      <workItem from="1539334773838" duration="31000" />
+      <workItem from="1539341790255" duration="686000" />
+      <workItem from="1539392756612" duration="858000" />
+      <workItem from="1539394196229" duration="276000" />
+      <workItem from="1539475284813" duration="1485000" />
+      <workItem from="1539477014823" duration="1123000" />
+      <workItem from="1539479408590" duration="1233000" />
+      <workItem from="1539481367698" duration="363000" />
+      <workItem from="1539486821819" duration="29000" />
+      <workItem from="1539601834174" duration="771000" />
+      <workItem from="1539658533397" duration="1028000" />
+      <workItem from="1539659965790" duration="167000" />
+      <workItem from="1539741445947" duration="20000" />
+      <workItem from="1539849469232" duration="712000" />
+      <workItem from="1539850360701" duration="72000" />
+      <workItem from="1540080900191" duration="509000" />
+      <workItem from="1540608232515" duration="394000" />
+      <workItem from="1540685056683" duration="566000" />
+      <workItem from="1540778702812" duration="365000" />
+      <workItem from="1540780322589" duration="758000" />
+      <workItem from="1540781872133" duration="461000" />
+      <workItem from="1540784054498" duration="37000" />
+      <workItem from="1541147645252" duration="294000" />
+      <workItem from="1541233482301" duration="14000" />
+      <workItem from="1541652685389" duration="1073000" />
+      <workItem from="1541657745941" duration="562000" />
+      <workItem from="1541894694098" duration="42000" />
+      <workItem from="1542940883431" duration="1320000" />
+      <workItem from="1542947162619" duration="115000" />
+      <workItem from="1543383819875" duration="540000" />
+      <workItem from="1545740311578" duration="186000" />
+      <workItem from="1549706342910" duration="312000" />
+      <workItem from="1549706956536" duration="884000" />
+      <workItem from="1549712342650" duration="98000" />
+      <workItem from="1549768052028" duration="273000" />
+      <workItem from="1550209947847" duration="627000" />
+      <workItem from="1550210608407" duration="269000" />
+      <workItem from="1555254637523" duration="233000" />
+      <workItem from="1557235108239" duration="875000" />
+      <workItem from="1557284261977" duration="40000" />
+      <workItem from="1557800136661" duration="724000" />
+      <workItem from="1557801057613" duration="2556000" />
+      <workItem from="1557824487655" duration="1592000" />
+      <workItem from="1557826341480" duration="545000" />
+      <workItem from="1557832084306" duration="1041000" />
+      <workItem from="1557840316058" duration="1312000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="transformertest_testtrans - 2019.05.14 at 11h 08m 34s.xml">
+      <configuration name="transformertest.testtrans" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="transformertest_testtrans - 2019.05.14 at 12h 37m 07s.xml">
+      <configuration name="transformertest.testtrans" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="record2rtmpserverTest_recordCameratest - 2019.05.14 at 12h 38m 33s.xml">
+      <configuration name="record2rtmpserverTest.recordCameratest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="transformertest_testtrans - 2019.05.14 at 12h 38m 54s.xml">
+      <configuration name="transformertest.testtrans" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="record2rtmpserverTest_recordCameratest - 2019.05.14 at 17h 02m 15s.xml">
+      <configuration name="record2rtmpserverTest.recordCameratest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="record2rtmpserverTest_recordCameratest - 2019.05.14 at 17h 06m 19s.xml">
+      <configuration name="record2rtmpserverTest.recordCameratest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="record2rtmpserverTest_recordCameratest - 2019.05.14 at 17h 09m 11s.xml">
+      <configuration name="record2rtmpserverTest.recordCameratest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="35907000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5010672" side_tool="true" weight="0.33668903" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.1430096" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.19370331" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.2497332" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32998884" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="bottom" id="Java Enterprise" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32997763" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49893278" weight="0.3489933" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32214764" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23906083" />
+      <window_info anchor="right" id="Bean Validation" order="3" weight="0.16061899" />
+      <window_info id="Web" order="2" side_tool="true" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Database Console" order="8" sideWeight="0.613127" weight="0.32997763" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.4994664" weight="0.32885906" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3036">
+          <caret line="138" column="12" selection-start-line="138" selection-start-column="12" selection-end-line="138" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="66">
+            <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application1.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties" />
+    <entry file="file://$PROJECT_DIR$/mvnw.cmd">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/classdesign/utils/JwtUtils.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/classdesign/utils/swagger/SwaggerUI.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.46/mysql-connector-java-5.1.46.jar!/com/mysql/jdbc/SQLError.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="592">
+          <caret line="337" selection-start-line="337" selection-end-line="337" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/classdesign/utils/models/Users.java" />
+    <entry file="file://$PROJECT_DIR$/mvnw">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/classdesign/services/NewsService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/classdesign/controllers/PublishController.java" />
+    <entry file="das://9bcd8907-2afb-47c4-85c3-e1344d2e4734/schema/classdesign/table/user_info" />
+    <entry file="das://9bcd8907-2afb-47c4-85c3-e1344d2e4734/schema/classdesign/table/hibernate_sequence">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://9bcd8907-2afb-47c4-85c3-e1344d2e4734/schema/classdesign/table/user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://9bcd8907-2afb-47c4-85c3-e1344d2e4734/schema/classdesign/table/users">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/classdesign/models/News.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/classdesign/interfaces/INewsImpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/classdesign/results/ErrorResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/classdesign/results/SuccessResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/classdesign/results/Result.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/classdesign/utils/MD5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="29" column="58" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/dataSources/9bcd8907-2afb-47c4-85c3-e1344d2e4734.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classdesign.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3190">
+          <caret line="145" column="21" selection-start-line="145" selection-start-column="21" selection-end-line="145" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="440">
+            <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/9bcd8907-2afb-47c4-85c3-e1344d2e4734/console_2.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/9bcd8907-2afb-47c4-85c3-e1344d2e4734/console_1.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://9bcd8907-2afb-47c4-85c3-e1344d2e4734/schema/classdesign/table/reflect">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/9bcd8907-2afb-47c4-85c3-e1344d2e4734/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/classdesign/ClassdesignApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#332#333#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.4.RELEASE/spring-boot-autoconfigure-2.0.4.RELEASE.jar!/org/springframework/boot/autoconfigure/orm/jpa/JpaBaseConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="97" column="50" selection-start-line="97" selection-start-column="50" selection-end-line="97" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/classdesign/models/UserInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="19" selection-start-line="10" selection-start-column="4" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/classdesign/services/Userservice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="21" column="50" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/classdesign/models/Evidence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/classdesign/repository/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/classdesign/utils/transformer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/classdesign/utils/addEvidence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/classdesign/transformertest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/classdesign/models/Camera.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/classdesign/utils/record2rtmpserver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="770">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/classdesign/record2rtmpserverTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="12" selection-start-line="12" selection-end-line="18" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/classdesign/services/CameraService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="946">
+          <caret line="53" column="60" selection-start-line="53" selection-start-column="60" selection-end-line="53" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/classdesign/swagger/Swagger2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="39" column="24" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/classdesign/repository/EvidenceRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/classdesign/controllers/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/classdesign/controllers/CameraController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="521">
+          <caret line="24" column="47" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/classdesign/JavacvCameraTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="28" lean-forward="true" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
