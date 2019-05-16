@@ -12,6 +12,6 @@ public class addEvidence {
 
     private Evidence evidence;
     public void addevidence(File picture){
-
+        //upload picture to server
     }
 }
