@@ -1,5 +1,7 @@
 package com.example.classdesign.models;
 
+import org.springframework.beans.factory.annotation.Autowired;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
@@ -11,29 +13,30 @@ import java.util.Date;
  */
 @Entity
 public class Evidence implements Serializable {
+    @Autowired
     @Id
     @GeneratedValue
-    private String evidence_id;
+    private Integer evid;
     private String pictures_url;
-    private String face_id;
-    private Date record_time;
-    private String stu_id;
+    private String behavior;
+    private Date recordtime;
+    private String stuid;
     public Evidence() {
     }
-    public Evidence(String evidence_id, String pictures_url, String face_id, Date record_time,String stu_id) {
-        this.evidence_id = evidence_id;
+
+    public Evidence(String pictures_url, String behavior, Date recordtime, String stuid) {
         this.pictures_url = pictures_url;
-        this.face_id = face_id;
-        this.record_time = record_time;
-        this.stu_id = stu_id;
+        this.behavior = behavior;
+        this.recordtime = recordtime;
+        this.stuid = stuid;
     }
 
-    public String getEvidence_id() {
-        return evidence_id;
+    public Integer getEvid() {
+        return evid;
     }
 
-    public void setEvidence_id(String evidence_id) {
-        this.evidence_id = evidence_id;
+    public void setEvid(Integer evid) {
+        this.evid = evid;
     }
 
     public String getPictures_url() {
@@ -44,27 +47,27 @@ public class Evidence implements Serializable {
         this.pictures_url = pictures_url;
     }
 
-    public String getFace_id() {
-        return face_id;
+    public String getBehavior() {
+        return behavior;
     }
 
-    public void setFace_id(String face_id) {
-        this.face_id = face_id;
+    public void setBehavior(String behavior) {
+        this.behavior = behavior;
     }
 
-    public Date getRecord_time() {
-        return record_time;
+    public Date getRecordtime() {
+        return recordtime;
     }
 
-    public void setRecord_time(Date record_time) {
-        this.record_time = record_time;
+    public void setRecordtime(Date recordtime) {
+        this.recordtime = recordtime;
     }
 
-    public String getStu_id() {
-        return stu_id;
+    public String getStuid() {
+        return stuid;
     }
 
-    public void setStu_id(String stu_id) {
-        this.stu_id = stu_id;
+    public void setStuid(String stuid) {
+        this.stuid = stuid;
     }
 }

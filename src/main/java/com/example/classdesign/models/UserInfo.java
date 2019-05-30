@@ -1,6 +1,8 @@
 package com.example.classdesign.models;
 
 
+import org.springframework.beans.factory.annotation.Autowired;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
@@ -15,6 +17,7 @@ public class UserInfo implements Serializable {
     private String userpsw;
     private boolean isadmin;
     private String salt;
+    private String stu_id;
 
     public UserInfo() {
     }

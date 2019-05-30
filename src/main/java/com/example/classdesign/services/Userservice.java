@@ -29,4 +29,24 @@ public class Userservice {
             return Result.error("有毒 滚去debug");
         }
     }
+    public Result findUserR(String username,String passwd) {
+        try {
+            System.out.println(username + "end");
+            UserInfo user = userRepository.findByUsername(username);
+            if (user != null) {
+                String password = MD5.string(passwd + user.getSalt());
+                System.out.println(password + "=" + user.getUserpsw());
+                if (password.equals(user.getUserpsw())) {
+                    return Result.success(user);
+                } else {
+                    return Result.error("wrong password");
+                }
+            } else {
+                return null;
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
 }

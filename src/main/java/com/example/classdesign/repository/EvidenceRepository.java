@@ -13,6 +13,6 @@ import java.util.List;
  */
 @Repository
 public interface EvidenceRepository extends JpaRepository<Evidence,Integer> {
-//    List<Evidence> findAllByStu_id(String id);
-//    Evidence findEvidenceByEvidence_id(String id);
+    List<Evidence> findAllByStuid(String stuid);
+    Evidence findEvidenceByEvid(Integer evi_id);
 }

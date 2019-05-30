@@ -1,8 +1,8 @@
 spring:
   datasource:
     url: jdbc:mysql://localhost:3306/classdesign
-    username: newsadmin
-    password: news123
+    username: admin
+    password: admin123
     test-while-idle: true
     validation-query: SELECT 1
   jpa:
