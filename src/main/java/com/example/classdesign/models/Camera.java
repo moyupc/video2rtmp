@@ -14,12 +14,20 @@ public class Camera implements Serializable {
     @Autowired
     @Id
     private String video_id;
-
+    private String location;
     public Camera() {
     }
 
     public String getVideo_id() {
         return video_id;
+    }
+
+    public String getLocation() {
+        return location;
+    }
+
+    public void setLocation(String location) {
+        this.location = location;
     }
 
     public void setVideo_id(String video_id) {

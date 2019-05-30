@@ -20,7 +20,6 @@ public class Evidence implements Serializable {
     private String stu_id;
     public Evidence() {
     }
-
     public Evidence(String evidence_id, String pictures_url, String face_id, Date record_time,String stu_id) {
         this.evidence_id = evidence_id;
         this.pictures_url = pictures_url;
